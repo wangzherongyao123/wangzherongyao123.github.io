@@ -1,0 +1,581 @@
+.header{
+  width: 100%;
+  height: 84px;
+}
+ul li{
+    list-style: none;
+}
+
+
+
+.header .container-fluid .wh-top{
+  display: block;
+  height:50px;
+  line-height: 49px;
+  background: #000;
+  font-size: 20px;
+  color: white;
+margin-left: -15px;
+
+}
+.header .wh-top .wx span{
+   padding-left: 10px;
+}
+
+.header .wh-top .wx .wx-img{
+  width: 80px;
+  height: 80px;
+  background: url("../img/wxewm.png") no-repeat 0 0;
+  background-size: cover;
+  position: absolute;
+  z-index: 15;
+display: none;
+}
+ .men_bg{
+  background: url("../img/banner.jpg") no-repeat 0 0  ;
+     background-size:cover;
+  width: 100%;
+  height: 787px;
+    margin-top: -35px;
+
+}
+ .men_bg .inner{
+     width: 1000px;
+     height: 787px;
+     margin: 0 auto;
+     position: relative;
+ }
+.men_bg .inner .men_01{
+    width:137px;
+    height: 240px;
+    background: url("../img/men_sprites.png")-165px -716px;
+    background-size: 1526px 997px;
+    position: absolute;
+    top:20px;
+    left: 256px;
+    opacity: 0;
+    animation: men_01 0.4s 0.2s linear forwards;
+
+}
+@keyframes men_01 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+    }
+    to{
+        opacity: 1;
+        top:20px;
+        transform: scale(1);
+        left: 256px;
+    }
+
+}
+.men_bg .inner .men_02{
+    width:137px;
+    height: 269px;
+    background: url("../img/men_sprites.png")-13px -718px;
+    background-size: 1526px 997px;
+    position: absolute;
+    top:20px;
+    left: 500px;
+    opacity: 0;
+    animation: men_02 0.4s 0.2s linear forwards;
+
+}
+@keyframes men_02 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:20px;
+        left: 500px;
+    }
+
+}
+.men_bg .inner .men_03{
+    width:242px;
+    height: 515px;
+    background: url("../img/men_sprites.png")-1259px -10px;
+    background-size: 1526px 997px;
+    position: absolute;
+    top:59px;
+    left: 58px;
+    opacity: 0;
+    animation: men_03 0.4s 0.4s linear forwards;
+}
+@keyframes men_03 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:59px;
+        left: 58px;
+    }
+
+}
+.men_bg .inner .men_04{
+    width:283px;
+    height: 456px;
+    background: url("../img/men_sprites.png")-573px -65px;
+    background-size: 1526px 997px;
+    position: absolute;
+    top:59px;
+   right: 150px;
+    opacity: 0;
+    animation: men_04 0.4s 0.4s linear forwards;
+}
+@keyframes men_04 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:59px;
+        right: 150px;
+    }
+
+}
+.men_bg .inner .men_05{
+    width:525px;
+    height: 360px;
+    background: url("../img/men_04.png")-62px -5px;
+    background-size: 652px 364px;
+    position: absolute;
+    top:420px;
+    left: -259px;
+    opacity: 0;
+    animation: men_05 0.4s 0.6s linear forwards;
+}
+@keyframes men_05 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:420px;
+        left: -259px;
+    }
+
+}
+.men_bg .inner .men_06{
+    width:412px;
+    height: 350px;
+    background: url("../img/men_08.png");
+    background-size: 412px 350px;
+    position: absolute;
+    top:420px;
+    right: 0;
+    opacity: 0;
+    animation: men_06 0.4s 0.6s linear forwards;
+}
+@keyframes men_06 {
+    from{
+        opacity: 0;
+        top: 432px;
+        transform: scale(0);
+        left: 400px;
+
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:420px;
+        right: 0;
+    }
+}
+.men_bg .inner .banner_txt{
+    width: 185px;
+    height: 604px;
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    z-index: 5;
+}
+.men_bg .inner .thunder{
+    width: 987px;
+    height: 347px;
+    position: absolute;
+    top: 420px;
+    left:320px;
+    opacity: 0;
+    animation: thunder 0.4s 0.8s linear forwards;
+
+}
+@keyframes thunder {
+    from{
+        opacity: 0;
+        transform: scale(0);
+        top:432px;
+        left:400px;
+
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top:420px;
+        left:320px;
+
+    }
+}
+.men_bg .inner .line_jijie{
+    width: 185px;
+    height: 185px;
+    background: url("../img/btn_jijie.png") 0 0 no-repeat;
+    position: absolute;
+    top: 560px;
+    left: 550px;
+    display: block;
+    opacity: 0;
+}
+.men_bg .inner .jijiebg{
+    display:block;
+    width: 185px;
+    height: 185px;
+    background: url("../img/btn_jijie.png") no-repeat 0 0;
+    position: absolute;
+    top: 560px;
+    left: 550px;
+    z-index: 10;
+}
+.men_bg .inner .rotate{
+    -webkit-animation: jijie 3.5s linear infinite;
+}
+@keyframes jijie {
+    0%{
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+
+}
+
+.two_page .navbar-top{
+
+    border-radius: 0;
+}
+.two_page .navbar-top .nabg{
+    background: #242424;
+
+}
+
+.two_page .navbar-top ul li{
+    font-size: 25px;
+    height: 60px;
+    line-height: 50px;
+    padding-top: 5px;
+
+}
+.two_page .navbar-top ul li a:hover{
+     border-bottom: 2px solid #ffff00;
+    box-sizing: border-box;
+
+    color: yellow;
+}
+
+.wrapper{
+  position: relative;
+}
+.wrapper .bg{
+    background: url("../img/bg_1.jpg") no-repeat top center;
+}
+.wrapper .bg1{
+    height: 800px;
+}
+.wrapper .selection1{
+    height: 800px;
+
+}
+.wrapper .selection1 .icon1{
+
+    height: 210px;
+    width: 115px;
+    background: url("../img/icons.png") no-repeat 0 -102px;
+    background-size: 862px 730px;
+    position: absolute;
+    top:80px;
+}
+.wrapper .selection2{
+    height: 800px;
+    position: relative;
+
+}
+.wrapper .selection2 .lbposition{
+    position: absolute;
+    top: 80px;
+    left: -160px;
+    width: 471px;
+    height: 471px;
+}
+.wrapper .selection3{
+
+    height: 800px;
+position: relative;
+}
+.wrapper .selection3 .table_top_ul{
+    height: 43px;
+    width: 600px;
+    position: absolute;
+    top: 80px;
+    border-bottom: 2px solid red;
+
+}
+.wrapper .selection3 .table_top_ul li {
+    list-style: none;
+    float: left;
+
+}
+.selection3 .table_top_ul .table_top_li:nth-child(1) a{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat 0 0;
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul .table_top_li:nth-child(1) a:hover{
+
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat 0px -59px;
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(2) a{
+       display: block;
+       width: 95px;
+       height: 35px;
+       background: url("../img/information_title2.png") no-repeat -95px 0px;
+       background-size: 475px 150px;
+   }
+.selection3 .table_top_ul li:nth-child(2) a:hover{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -95px -59px;
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(3) a{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -190px 0px;
+
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(3) a:hover{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -190px -59px;
+
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(4) a{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -285px 0px;
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(4) a:hover{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -285px -59px;
+    background-size: 475px 150px;
+}
+.selection3 .table_top_ul li:nth-child(5) a{
+     display: block;
+     width: 95px;
+     height: 35px;
+     background: url("../img/information_title2.png") no-repeat -385px 0px;
+     background-size: 475px 150px;
+ }
+.selection3 .table_top_ul li:nth-child(5) a:hover{
+    display: block;
+    width: 95px;
+    height: 35px;
+    background: url("../img/information_title2.png") no-repeat -385px -59px;
+    background-size: 475px 150px;
+}
+.selection3 .context .context_ul{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 160px;
+
+}
+.selection3 .context .context_ul1{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 160px;
+    display: none;
+}
+.selection3 .context .context_ul2{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 160px;
+    display: none;
+}
+.selection3 .context .context_ul3{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 160px;
+    display: none;
+}
+.selection3 .context .context_ul4{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 160px;
+    display: none;
+}
+.selection3 .context .context_ul .context_li{
+     list-style: none;
+     width: 500px;
+     overflow: hidden;
+     height: 40px;
+     overflow: hidden;
+     border-bottom: 1px dashed black;
+ }
+.selection3 .context .context_ul1 .context_li{
+    list-style: none;
+    width: 500px;
+    overflow: hidden;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+}
+
+.selection3 .context .context_ul2 .context_li{
+    list-style: none;
+    width: 500px;
+    overflow: hidden;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+}
+.selection3 .context .context_ul3 .context_li{
+    list-style: none;
+    width: 500px;
+    overflow: hidden;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+}
+.selection3 .context .context_ul4 .context_li{
+    list-style: none;
+    width: 500px;
+    overflow: hidden;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+}
+.selection3 .context .context_ul .context_li a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.selection3 .context .context_ul1 .context_li a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.selection3 .context .context_ul2 .context_li a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.selection3 .context .context_ul3 .context_li a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.selection3 .context .context_ul4 .context_li a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.selection3 .context .context_ul .context_li a:hover{
+    color: orange;
+}
+.selection3 .context .context_ul1 .context_li a:hover{
+    color: orange;
+}
+.selection3 .context .context_ul2 .context_li a:hover{
+    color: orange;
+}
+.selection3 .context .context_ul3 .context_li a:hover{
+    color: orange;
+}
+.selection3 .context .context_u4 .context_li a:hover{
+    color: orange;
+}
+.footer .foot-left{
+
+    width: 100%;
+    height: 120px;
+    background: black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 0;
+
+
+}
+
+
+
+
