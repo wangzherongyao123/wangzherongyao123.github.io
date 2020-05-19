@@ -1,0 +1,40 @@
+/* ============搜索表单============== */
+div.globalsearchformzone{
+  padding:0px;
+  margin:0px;
+  height:22px;
+  }
+  
+  
+  div.globalsearchformzone div.globalsearchform{
+  float:right;
+  padding:0px 0px 0px 0px;
+  margin:0px;
+  height:22px;
+  border:1px #B9BDAA solid;
+  }
+  
+  div.globalsearchformzone div.globalsearchform1{
+  float:right;
+  padding:0px;
+  margin:0px;
+  line-height:22px;
+  }
+  
+  
+  
+  div.globalsearchformzone div.globalsearchform .input5014{
+  border:0px;
+  height:22px;
+  line-height:22px;
+  padding:0px;
+  margin:0px;
+  background:#ffffff
+  }
+  
+  
+  div.globalsearchformzone div.globalsearchform .imgbutton{
+  padding:0px;
+  margin:0px;
+  }
+  

@@ -1,0 +1,42 @@
+/* ============浜у搧鍥剧墖鍒楄〃============== */
+div .productlist_cyrano_5014{
+	border:0px #ebebeb solid;
+	padding:0px;
+}
+
+div#demo{
+	overflow:hidden;
+	width:865px;
+	color:#ff0000;
+}
+
+div.productlist_cyrano_5014 div.fang{
+border:0px #ccc solid;
+background: #fff;
+padding:0px;
+margin:0px 20px 0px 2px;
+text-align:center;
+}
+
+div.productlist_cyrano_5014 div.picFit{
+overflow: hidden;
+}
+
+
+div.productlist_cyrano_5014 div.title{
+text-align:center;
+overflow: hidden;
+white-space:nowrap;
+}
+
+div.productlist_cyrano_5014 a:link,div.productlist_cyrano_5014 a:visited,div.productlist_cyrano_5014 a:active{
+color:#555;
+font:12px/25px arial,simsun;
+text-decoration: none;
+}
+
+div.productlist_cyrano_5014 a:hover{
+color:#ff0000;
+text-decoration: underline;
+font:12px/25px arial,simsun;
+}
